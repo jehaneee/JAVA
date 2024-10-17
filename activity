@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class jane111 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double q1,q2,q3,qt,qpercent;
+		double mp1,mp2,mp3,mpercent,total_grades,mtotal;
+		
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("SIMPLE GRADING SYSTEM");
+		System.out.println("Quizzes: (40%)");
+		
+
+		
+		System.out.print("Q1: ");
+		q1=input.nextDouble();
+		System.out.print("Q2: ");
+		q2=input.nextDouble();
+		System.out.print("Q3: ");
+		q3=input.nextDouble();
+		qt=(q1+q2+q3)/3;
+		qpercent=qt*.40;
+		System.out.println("Q%: "+qpercent);
+		
+		System.out.println("--------------------------");
+		System.out.println("Machine Problems: (60%)");
+		
+		
+		System.out.print("MP1: ");
+		mp1=input.nextDouble();
+		System.out.print("MP2: ");
+		mp2=input.nextDouble();
+		System.out.print("MP3: ");
+		mp3=input.nextDouble();
+		mtotal=(mp1+mp2+mp3)/3;
+		total_grades=qpercent*.60;
+		System.out.println("Q%: "+total_grades);
+
+
+	}
+
+}
