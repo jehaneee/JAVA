@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        
+        double x,v,f,g,h,i;
+        double sum;
+        double product;
+        double quotient;
+        double difference;
+        
+        System.out.print("Please enter 1st number: ");
+        x=input.nextDouble();
+        System.out.print("Please enter 2nd number: ");
+        v=input.nextDouble();
+        f=x+v;
+        g=x-v;
+        h=x/v;
+        i=x*v;
+        
+        System.out.println("Sum: "+f);
+        System.out.println("Minus: "+g);
+        System.out.println("Divide: "+h);
+        System.out.println("Multiply: "+i);
+    }
+}
