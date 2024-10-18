@@ -1,4 +1,4 @@
-import java.util.Scanner; //RunInIDEEclipse
+import java.util.Scanner; 
 public class aehg {
 		    public static void main(String[] args) {
 		        
