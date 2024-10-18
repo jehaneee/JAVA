@@ -1,0 +1,13 @@
+
+class mdas {
+    public static void main(String[] args) {
+        
+        int x = 22;
+        int y = 12;
+        int z = 5;
+        
+        System.out.println("(a) is: "+((6*y)-z)*(x+z));
+        System.out.println("(b) is: "+((y*z)+(x/z))*((z+x)/(x-y)));
+        System.out.println("(c) is: "+((y+x)*(4*x)-(3*z)-x/z));
+    }
+}
