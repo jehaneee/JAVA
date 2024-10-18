@@ -1,17 +1,16 @@
-port java.util.Scanner; //RunInIDEEclipse
+import java.util.Scanner; //RunInIDEEclipse
 public class aehg {
 		    public static void main(String[] args) {
 		        
 		    double A,B,C,D;
- Scanner input=new Scanner(System.in);
-		    System.out.println("Enter 25%: ");
-		  package agqe;
-im  A = input.nextDouble();
-		    System.out.println("Enter 25%: ");
+            Scanner input=new Scanner(System.in);
+		    System.out.print("Enter 25%: ");
+            A = input.nextDouble();
+		    System.out.print("Enter 25%: ");
 		    B = input.nextDouble();
-		    System.out.println("Enter 30%: ");
+		    System.out.print("Enter 30%: ");
 		    C = input.nextDouble();
-		    System.out.println("Enter 20%: ");
+		    System.out.print("Enter 20%: ");
 		    D = input.nextDouble();
 		    
 		    double total=A+B+C+D;
